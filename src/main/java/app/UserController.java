@@ -30,7 +30,7 @@ public class UserController {
 
 	}
 
-	@RequestMapping(method = RequestMethod.POST, value = "/users/user")
+	@RequestMapping(method = RequestMethod.POST, value = "/users")
 	public void addUser(@RequestBody User user) {
 		userService.addUser(user);
 	}
