@@ -13,10 +13,10 @@ public class UserService {
 	@Autowired
 	private UserRepository userRespository;
 
-	private List<User> users =new ArrayList<>( Arrays.asList(new User("java", "fijfeo", 252), new User("c++", "fijdzdzdfeo", 285),
-			new User("c", "fizdzdjfeo", 125252)
-
-	));
+//	private List<User> users =new ArrayList<>( Arrays.asList(new User("java", "fijfeo", 252), new User("c++", "fijdzdzdfeo", 285),
+//			new User("c", "fizdzdjfeo", 125252)
+//
+//	));
 
 	public List<User> getAllUsers() {
 		//return users;

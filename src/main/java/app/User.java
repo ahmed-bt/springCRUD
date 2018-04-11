@@ -1,15 +1,17 @@
 package app;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="user")
+@Table (name="users")
 public class User {
 	@Id
 	private String name;
 	private String email;
+	@Column(name="old")
 	private int age;
 
 	public User() {
