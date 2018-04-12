@@ -3,9 +3,11 @@ package app;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.PersistenceContext;
 import javax.persistence.Table;
 
 @Entity
+@PersistenceContext
 @Table (name="users")
 public class User {
 	@Id
